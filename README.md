@@ -8,7 +8,7 @@ two APIs:
 One to fetch product data and another to place orders.
 There is no need for user authentication.
 
-# To start frontent
+# To start frontend
 
 cd /frontend->npm i->npm start
 
@@ -40,7 +40,6 @@ ProductList.js # Fetches and displays all products using the API
 |--App.js # called the component three and main file to executes
 
 # Libraries
-
 # Backend
 
 express
