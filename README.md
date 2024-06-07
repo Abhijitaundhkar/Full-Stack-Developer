@@ -1,9 +1,10 @@
 # Full-Stack-Developer
 
 # Project description
+
 This is basic simple e-commerce website that allows users to view a list of products, add
 products to their cart, and place orders.
-ReactJS for the frontend and NodeJS for the backend. 
+ReactJS for the frontend and NodeJS for the backend.
 The backend will provide
 two APIs:
 One to fetch product data and another to place orders.
@@ -29,8 +30,7 @@ server.js # Server configuration
 
 # Folder structure for frontend
 
-src
-components
+src/components
 
 CartPage.js # Handles data for placing orders and displaying cart data
 
@@ -41,6 +41,7 @@ ProductList.js # Fetches and displays all products using the API
 |--App.js # called the component three and main file to executes
 
 # Libraries
+
 # Backend
 
 express
