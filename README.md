@@ -18,7 +18,6 @@ cd /backend->npm i->npm start
 
 # Folder structure for backend
 
-backend
 src-> controller # Contains all main logic for API
 
 src-> product-data # Array of product data
@@ -29,9 +28,9 @@ server.js # Server configuration
 
 # Folder structure for frontend
 
-frontend
 src
 components
+
 CartPage.js # Handles data for placing orders and displaying cart data
 
 ProductCard.js # Displays individual products
