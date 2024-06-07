@@ -11,29 +11,24 @@ There is no need for user authentication.
 
 # To start Frontend app
 
-cd /frontend
-|npm i
-|npm start
+cd /frontend->npm i->npm start
 
 # Backend
 
-cd /backend
-|npm i
-|snpm start
+cd /backend->npm i->npm start
 
 # folder structure for backend
 
 backend
-├── src
-│ ├── controller # Contains all main logic for API
-│ ├── product-data # Array of product data
-│ └── routes # Contains all product and order routes
+├── src-> controller # Contains all main logic for API
+│---src-> product-data # Array of product data
+│---src->routes # Contains all product and order routes
 └── server.js # Server configuration
 
 # folder structure for frontend
 
 frontend
-└── src
+src
 ├── components
 │ ├── CartPage.js # Handles data for placing orders and displaying cart data
 │ ├── ProductCard.js # Displays individual products
