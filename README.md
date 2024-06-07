@@ -1,12 +1,13 @@
 # Full-Stack-Developer
 
 # Project description
-simple e-commerce website that allows users to view a list of products, add
+This is basic simple e-commerce website that allows users to view a list of products, add
 products to their cart, and place orders.
-You will be using ReactJS for the frontend and NodeJS for the backend. The backend will provide
+ReactJS for the frontend and NodeJS for the backend. 
+The backend will provide
 two APIs:
 One to fetch product data and another to place orders.
-There is no need for user authentication.
+Then frontend will show UI and all activity for products
 
 # To start frontend
 
