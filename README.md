@@ -1,7 +1,6 @@
 # Full-Stack-Developer
 
 # Project description
-
 simple e-commerce website that allows users to view a list of products, add
 products to their cart, and place orders.
 You will be using ReactJS for the frontend and NodeJS for the backend. The backend will provide
