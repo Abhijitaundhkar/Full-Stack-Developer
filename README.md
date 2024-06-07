@@ -9,11 +9,11 @@ two APIs:
 One to fetch product data and another to place orders.
 There is no need for user authentication.
 
-# To start Frontend app
+# To start frontapp app
 
 cd /frontend->npm i->npm start
 
-# Backend
+# To start Backend server
 
 cd /backend->npm i->npm start
 
