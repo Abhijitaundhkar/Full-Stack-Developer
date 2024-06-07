@@ -12,14 +12,14 @@ There is no need for user authentication.
 # To start Frontend app
 
 cd /frontend
-├── npm i
-|---npm start
+|npm i
+|npm start
 
 # Backend
 
 cd /backend
-├── npm i
-|---npm start
+|npm i
+|snpm start
 
 # folder structure for backend
 
