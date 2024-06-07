@@ -9,30 +9,31 @@ two APIs:
 One to fetch product data and another to place orders.
 There is no need for user authentication.
 
-# To start frontapp app
+# To start frontent
 
 cd /frontend->npm i->npm start
 
-# To start Backend server
+# To start backend
 
 cd /backend->npm i->npm start
 
 # folder structure for backend
 
 backend
-├── src-> controller # Contains all main logic for API
-│---src-> product-data # Array of product data
-│---src->routes # Contains all product and order routes
-└── server.js # Server configuration
+src-> controller # Contains all main logic for API
+src-> product-data # Array of product data
+src->routes # Contains all product and order routes
+server.js # Server configuration
 
 # folder structure for frontend
 
 frontend
 src
-├── components
-│ ├── CartPage.js # Handles data for placing orders and displaying cart data
-│ ├── ProductCard.js # Displays individual products
-│ └── ProductList.js # Fetches and displays all products using the API
+components
+CartPage.js # Handles data for placing orders and displaying cart data
+ProductCard.js # Displays individual products
+ProductList.js # Fetches and displays all products using the API
+
 |--App.js # called the component three and main file to executes
 
 # Libraries
