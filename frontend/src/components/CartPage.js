@@ -6,11 +6,13 @@ const CartPage = ({ cart, updateQuantity, removeFromCart }) => {
   const [lastName, setLastName] = useState("");
   const [address, setAddress] = useState("");
 
+  // total with added product quantity
   const totalPrice = cart.reduce(
     (total, item) => total + item.product.price * item.quantity,
     0
   );
 
+  //place order of product
   const placeOrder = (event) => {
     event.preventDefault();
     const order = {
@@ -22,7 +24,7 @@ const CartPage = ({ cart, updateQuantity, removeFromCart }) => {
       lastName,
       address,
     };
-
+    //call the api to backend for order place
     axios
       .post("http://localhost:3002/api/orders/place-order", order)
       .then((response) => {

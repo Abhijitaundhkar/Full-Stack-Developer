@@ -5,6 +5,7 @@ import ProductCard from "./productCard";
 const ProductList = ({ addToCart }) => {
   const [products, setProducts] = useState([]);
 
+  //get all product from backend
   useEffect(() => {
     axios
       .get("http://localhost:3002/api/products/products")
